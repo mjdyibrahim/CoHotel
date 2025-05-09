@@ -42,12 +42,12 @@ def get_similarity(target: List[float], candidates: List[float], top_k: int):
 
 url = "https://hotels4.p.rapidapi.com/locations/v3/search"
 
-API_KEY = '5fa5658111mshd1008bbe356bc06p1ac1f6jsn9e45212f9333'
+API_KEY = # from env
 HEADERS = {
     'X-RapidAPI-Key': API_KEY,
     'X-RapidAPI-Host': 'hotels4.p.rapidapi.com',
 }
-COHERE_API_KEY = 'd8eTHtyzVN2e6LKLpy8E8xZkyFfmSwZWIayDhKIt'  #@param {type:"raw"}
+COHERE_API_KEY = #from env  #@param {type:"raw"}
 co = cohere.Client(COHERE_API_KEY)
 
 ##Read the dataframe to display the city and location of hotel
