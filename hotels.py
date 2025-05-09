@@ -16,7 +16,7 @@ from typing import List, Union, Dict, Any
 
 # Cohere API Key
 
-COHERE_API_KEY = 'd8eTHtyzVN2e6LKLpy8E8xZkyFfmSwZWIayDhKIt'  #@param {type:"raw"}
+COHERE_API_KEY = # from env  #@param {type:"raw"}
 co = cohere.Client(COHERE_API_KEY)
 
 ## Get Embeddings from co:here
